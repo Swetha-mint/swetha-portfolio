@@ -1,8 +1,8 @@
 /* Article layout refinement — balanced media + text columns */
 .article-feature{align-items:stretch}
-.article-feature .media-gallery{height:100%;aspect-ratio:auto;min-height:0}
+.article-feature .media-gallery{height:100%;aspect-ratio:auto;min-height:0;background:#111}
 .article-feature .feature-body{min-height:100%}
-.article-feature .gallery-slide img,.article-feature .gallery-slide video{object-fit:cover}
+.article-feature .gallery-slide img,.article-feature .gallery-slide video{object-fit:contain;background:#111}
 @media(max-width:960px){
   .article-feature .media-gallery{height:auto;aspect-ratio:16/10}
 }
